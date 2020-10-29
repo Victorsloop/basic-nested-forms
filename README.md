@@ -91,6 +91,8 @@ writing our own `addresses_attributes=` method, we'll let Rails take care of it
 for us. We're going to use `accepts_nested_attributes_for` and the `fields_for`
 FormHelper.
 
+#Two new helper methods ##
+
 Last time, we first wrote our setter method in the model. This time let's modify
 our `Person` model to include an `accepts_nested_attributes_for :addresses`
 line.
